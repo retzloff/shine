@@ -1,7 +1,7 @@
 {
   "sims": {
     "dbConfig": {
-      "server": "192.168.56.101",
+      "server": "xxx.xxx.xxx.xxx",
       "database": "SimsXml",
       "userName": "xxxxxxxxxx",
       "password": "xxxxxxxxxx",
