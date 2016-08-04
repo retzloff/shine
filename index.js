@@ -2,22 +2,16 @@
 
 const Hapi = require('hapi')
 const ConnectionPool = require('tedious-connection-pool')
+const config = require('config');
 
 const poolConfig = {
   min: 1,
   max: 10
 }
 
-const dbConfig = {
-  server: '192.168.56.101',
-  database: 'SimsXml',
-  userName: 'xxxxxxxxxx',
-  password: 'xxxxxxxxxx',
-  options: {
-    useColumnNames: true,
-    connectTimeout: 20000
-  }
-}
+const dbConfig = config.get('sims.dbConfig');
+
+console.log(dbConfig)
 
 const pool = new ConnectionPool(poolConfig, dbConfig)
 

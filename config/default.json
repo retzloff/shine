@@ -1,0 +1,14 @@
+{
+  "sims": {
+    "dbConfig": {
+      "server": "192.168.56.101",
+      "database": "SimsXml",
+      "userName": "xxxxxxxxxx",
+      "password": "xxxxxxxxxx",
+      "options": {
+        "useColumnNames": true,
+        "connectTimeout": 20000
+      }
+    }
+  }
+}
