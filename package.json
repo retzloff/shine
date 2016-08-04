@@ -1,0 +1,22 @@
+{
+  "name": "shine",
+  "version": "0.1.0",
+  "description": "SIMS personnel lookup microservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sims",
+    "personnel",
+    "microservice"
+  ],
+  "author": "Eric Retzloff",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^14.1.0",
+    "tedious": "^1.14.0",
+    "tedious-connection-pool": "^1.0.4"
+  },
+  "repository": {}
+}
